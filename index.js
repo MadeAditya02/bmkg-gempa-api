@@ -12,15 +12,15 @@ app.get('/', (req, res) => {
 		sumber: "Data Resmi BMKG",
 		terbaru: {
 			info: "Menampilkan data gempa terbaru (1 data gempa dalam bentuk object)",
-			endpoint: 'https://bmkg-gempa-api.vercel.app//gempa'
+			endpoint: 'https://bmkg-gempa-api.vercel.app/gempa'
 		},
 		terkini: {
-			info: "Menampilkan 15 data gempa terkini (15 data gempa dalam bentuk array)",
-			endpoint: 'https://bmkg-gempa-api.vercel.app//terkini'
+			info: "Menampilkan 15 data gempa terkini dengan magnitudo 5.0+ (15 data gempa dalam bentuk array)",
+			endpoint: 'https://bmkg-gempa-api.vercel.app/terkini'
 		},
 		dirasakan: {
 			info: "Menampilkan 15 data gempa dirasakan (15 data gampa dalam bentuk array)",
-			endpoint: 'https://bmkg-gempa-api.vercel.app//dirasakan'
+			endpoint: 'https://bmkg-gempa-api.vercel.app/dirasakan'
 		},
 	})
 })
