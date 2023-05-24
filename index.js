@@ -10,6 +10,7 @@ app.get('/', (req, res) => {
 		message: "Unoficiall BMKG API Wrapper",
 		source: "https://data.bmkg.go.id/gempabumi",
 		sumber: "Data Resmi BMKG",
+		github: "https://github.com/madeaditya02/bmkg-gempa-api"
 		terbaru: {
 			info: "Menampilkan data gempa terbaru (1 data gempa dalam bentuk object)",
 			endpoint: 'https://bmkg-gempa-api.vercel.app/gempa'
